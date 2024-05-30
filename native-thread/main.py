@@ -56,6 +56,8 @@ if __name__ == "__main__":
         
 
         print(f"[INFO] {count} process is currently running")
+        print(f"[INFO] Press CTRL+C to exit the program")
+        
         while True:
             continue
     
