@@ -11,4 +11,4 @@ RUN apt-get update && \
     apt install -y iputils-ping
 
 # Run app.py when the container launches
-CMD ["python", "main.py", "192.168.1.1"]
+CMD ["python", "main.py"]
